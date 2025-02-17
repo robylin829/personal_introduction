@@ -61,10 +61,40 @@
             align-items: center;
             justify-content: center;
         }
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                margin: 20px auto;
+                padding: 15px;
+            }
+            img {
+                width: 40px;
+                height: 40px;
+            }
+            a {
+                padding: 8px 16px;
+            }
+        }
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 20px;
+            }
+            p {
+                font-size: 14px;
+            }
+            img {
+                width: 35px;
+                height: 35px;
+            }
+            a {
+                padding: 6px 12px;
+            }
+        }
     </style>
 </head>
 <body>
     <div class="container">
+    <img src="FB_IMG_1689556891094.jpg" alt="個人照片">
     <h1>你好，我是林軒宇</h1>
     <p>我是熱愛創造的開發者</p>
     <h2>我的技能</h2>
